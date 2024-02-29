@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnimgCalculadora"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_day" />
+
+        <ImageButton
+            android:id="@+id/imgbtnGaleria"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/arrow_up_float" />
+
+        <ImageButton
+            android:id="@+id/imgbtnTemas"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <ImageButton
+            android:id="@+id/imgbtnInicio"
+            android:layout_width="99dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/btn_dialog" />
+
+    </LinearLayout>
+
+</FrameLayout>
